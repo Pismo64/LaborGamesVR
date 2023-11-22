@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Left Hand
   - Right Hand
+  - Fence
+  - BasePivot
   layers:
   - Default
   - TransparentFX
