@@ -5,13 +5,14 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class XRGrabInteractableToAttach : XRGrabInteractable
 {
-    public Transform leftAttachTransform;
+    public Transform leftAttachTransformHalloLLOO;
     public Transform rightAttachTransform;
+    public Transform testTrasform;
     protected override void OnSelectEntered(SelectEnterEventArgs args)
     {
         if(args.interactorObject.transform.CompareTag("Left Hand"))
         {
-            attachTransform = leftAttachTransform;
+            attachTransform = leftAttachTransformHalloLLOO;
         }
         else if(args.interactorObject.transform.CompareTag("Right Hand"))
         {
